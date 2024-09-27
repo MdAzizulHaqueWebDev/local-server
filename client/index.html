@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Local Server</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="app.js" defer></script>
+	</head>
+	<body>
+		<h2 style="text-align: center;">Give your Name to save in local</h2>
+		<div>
+
+			<form onsubmit="formSubmitted(event)">
+				<label for="name"> Name </label>
+				<input type="text" name="name" />
+				<label for="">Age</label>
+				<input type="number" name="age" id="" />
+				<label for="">Phone</label>
+				<input type="number" name="phone" id="" />
+				<label for="">Email</label>
+				<input type="email" name="email" id="" />
+				<label for="">District</label>
+				<input type="text" name="district" id="" />
+				<label for="">Village</label>
+				<input type="text" name="village" id="" />
+				<input type="submit" value="Okay" />
+			</form>
+		</div>
+		<dialog id="congratulation_diag">
+			<h1>congratulation form submitted</h1>
+			<button id="modal-close">Okay</div>
+		</dialog>
+	</body>
+</html>
